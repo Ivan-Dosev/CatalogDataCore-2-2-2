@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19C57" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Becarstvo" representedClassName="Becarstvo" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="nameFirm" optional="YES" attributeType="String"/>
+        <attribute name="nameLecarstvo" optional="YES" attributeType="String"/>
+        <attribute name="optinal" optional="YES" attributeType="String"/>
+        <attribute name="vidove" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Lekarstvo" representedClassName="Lekarstvo" syncable="YES">
+        <attribute name="firstDoza" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="fromMax" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="fromMin" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="goPazient" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="grupa" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="isMax" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isMin" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="kgPazient" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="lekarstvo" optional="YES" attributeType="String"/>
+        <attribute name="maxDoza" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="mjarka" optional="YES" attributeType="String"/>
+        <attribute name="opis" optional="YES" attributeType="String"/>
+        <attribute name="priemI" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="priemII" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="toMax" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="toMin" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Rekarstvo" representedClassName="Rekarstvo" syncable="YES">
+        <attribute name="careful" optional="YES" attributeType="String"/>
+        <attribute name="dasage" optional="YES" attributeType="String"/>
+        <attribute name="effects" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="isOnLek" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="lekarstvo" optional="YES" attributeType="String"/>
+        <attribute name="proper" optional="YES" attributeType="String"/>
+        <attribute name="risk" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Becarstvo" positionX="-63" positionY="108" width="128" height="118"/>
+        <element name="Lekarstvo" positionX="-63" positionY="-18" width="128" height="298"/>
+        <element name="Rekarstvo" positionX="-27" positionY="144" width="128" height="163"/>
+    </elements>
+</model>
